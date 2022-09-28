@@ -1,8 +1,7 @@
 # Ruby Word Guesser Game
-https://ruby-wordguesser.herokuapp.com/ </br>
+Deployed to Heroku: https://ruby-wordguesser.herokuapp.com/ </br>
 </br>Implemented an MVC patter using Sinatra to expose operations on the model. 
 Testing of the game logic is done with Cucumber. Simulating browser actions with Capybara for integration tests. </br>
-Deployed to Heroku.</br>
 Designed routes for each RESTful action in the game:
 - `GET /show` Show game state, allow player to enter guess; may redirect to Win or Lose
 - `GET /new` Display form that can generate `POST /create`
