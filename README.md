@@ -1,5 +1,6 @@
 # Ruby Word Guesser Game
 Deployed to Heroku: https://ruby-wordguesser.herokuapp.com/ </br>
+An interactive Word Guesser Game that generates a new random word each game. 
 </br>Implemented an MVC patter using Sinatra to expose operations on the model. 
 Testing of the game logic is done with Cucumber. Simulating browser actions with Capybara for integration tests. </br>
 Designed routes for each RESTful action in the game:
