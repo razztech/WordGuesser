@@ -7,5 +7,6 @@ Designed routes for each RESTful action in the game:
 - `POST /guess` Process guess; redirects to Show Game after changing state
 - `GET /win` Show "you win" page with button to start new game
 - `GET /lose` Show "you lose" page with button to start new game
-Implemented an MVC patter using Sinatra to expose operations on the model. 
+</br> Implemented an MVC patter using Sinatra to expose operations on the model. 
 Testing of the game logic is done with Cucumber. Simulating browser actions with Capybara for integration tests. </br>
+Deployed to Heroku.
